@@ -17,3 +17,152 @@ html,body{
    -webkit-overflow-scrolling: touch;  
 }
 
+#main {
+	width: 1062px;
+	height: 100%;
+	margin: auto;
+
+}
+
+header{
+	margin-top: 69px;
+}
+
+.logo{
+	display: block;
+	width: 119px;
+	height: 23px;
+	float: left;
+}
+
+
+nav a{
+	float: right;
+	padding: 0 30px;
+	line-height: 23px;
+	color: #626262;
+	font-size: 14px;
+}
+
+.banner img{
+	width: 100%;
+	margin: auto;
+}
+
+article{
+	width: 95%;
+	margin: auto;
+}
+
+article p{
+	padding-top: 40px;
+	font-size:14px ;
+	color: #626262;
+	line-height: 2;
+}
+article h5{
+	font-size: 14px;
+	color: #b4ad9e;
+}
+
+article h4{
+	padding-top: 10px;
+	font-size: 20px;
+	color: #626262;
+}
+
+.firstSection{}
+.firstSection h5{
+	padding-top: 100px;
+}
+.firstSection h3{
+	padding-top: 40px;
+	font-size:30px ;
+	color: #626262;
+}
+
+
+
+.secondSection img{
+	display: block;
+	width: 100%;
+	padding-top: 40px;
+}
+
+
+.quote{
+	margin: auto;
+	width: 90%;
+	font-style: italic;
+}
+
+.socialMedia{
+	padding-top: 100px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.socialMedia a{
+	padding-left: 20px;
+}
+
+
+.photoGrid{
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.photoGrid > .item{
+	display: block;
+	width: 30%;
+}
+.photoGrid img{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main article:last-child{
+	background-color: #f2f2f2;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#main article:last-child h5{
+	padding-top: 30px;
+}
+
+
+footer {
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+}
+
+.privacy a{
+	padding-right: 30px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.followUs{
+	display: flex;
+	align-items: center;
+}
+
+.followUs img{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-right: 20px;
+}
+
+.followUs img:first-of-type{
+	padding-left: 20px;
+}
+
+
+
+
