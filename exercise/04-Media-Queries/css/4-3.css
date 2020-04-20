@@ -45,7 +45,7 @@ nav a{
 }
 
 .banner{
-	margin-bottom: 90px;
+	margin-bottom: 30px;
 }
 
 .banner img{
@@ -183,6 +183,20 @@ footer {
 
 .followUs img:first-of-type{
 	padding-left: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	#main {
+	width: 90%;
+	height: auto;
+	margin: auto;
+
+}
+
+
+    
 }
 
 
