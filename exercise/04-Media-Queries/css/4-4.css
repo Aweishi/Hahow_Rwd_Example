@@ -20,12 +20,18 @@ html,body{
 /*orientation: portrait   直式*/
 @media screen and  (orientation:portrait) {
     html,body{
+
+    	background-color: red;
+    	color: #fff;
 		
 	}
 }
 /*orientation: landscape  橫式*/
 @media screen and  (orientation:landscape) {
     html,body{
+
+    	background-color: yellow;
+    	color: blue;
 		
 	}
 }

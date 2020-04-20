@@ -14,6 +14,9 @@ header{
     width: 100%;
     height: 61px;
     background-color: #fe5054;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 header > a.menu{
     display: block;
@@ -36,6 +39,7 @@ article{
     height: auto;
     overflow: hidden;
     margin-bottom: 123px;
+    margin-top: 61px;
 }
 article > img{
     display: block;
@@ -44,6 +48,9 @@ article > img{
 }
 /*///////////////////////////////////////////////////////////////////////*/
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: auto;
     overflow: hidden;
