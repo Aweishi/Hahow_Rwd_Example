@@ -14,3 +14,104 @@ html,body{
     width: 100%;
     height: 100%;
 }
+
+nav{
+	width: 100%;
+	height: 97px;
+	background-color: #373c3f;
+}
+.logo{
+	float: left;
+}
+.colorG{
+	color: #ebebeb;
+}
+.colorW{
+	color: #fff;
+}
+.fz15{
+	font-size: 15px;
+}
+.fz60{
+	font-size: 60px;
+}
+.fz34{
+	font-size: 34px;
+
+}
+
+.content{
+	width: 1024px;
+	margin: auto;
+	line-height: 97px;
+}
+.banner h2:first-of-type{
+	opacity: .5;
+}
+.banner h2 > span{
+	color: #fff;
+	display: inline-block;
+	padding-left:310px ;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	padding-left: 30px;
+}
+span{
+	display: block;
+}
+header{
+	padding: 280px 0 165px 0;
+	width: 100%;
+	background-color: #0ca3b9;
+}
+
+article{
+	width: 100%;
+	background-color: #27212c;
+}
+.textbox{
+	display: flex;
+	height: 234px;
+	justify-content: center;
+
+}
+.aside1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 100%;
+}
+.aside2{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #bc3183;
+}
+
+.photogrid{
+	display: flex;
+	width: 100%;
+}
+
+.item{
+	display: block;
+	width: 33.3%;
+}
+
+.itembtn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5b0fa1;
+}
+
+
+
+

@@ -19,9 +19,9 @@ div{
 	width:100%;
 	height:100%;
 	background-color:#1e69de;
-	/*
-		css ...
-	*/
+	background-image: url(../images/game.jpg);
+	background-size: cover;
+	background-position: center bottom;
 	
 }
 div > h1{

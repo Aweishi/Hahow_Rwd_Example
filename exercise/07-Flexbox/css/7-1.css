@@ -27,26 +27,18 @@ html,body{
     width: 70%;
     height: 100%;
     margin: 0 auto;
-
-    /*
-         css... 
-    */
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex-box > .mid > img{
-    /*
-        css... 
-    */
+    width: 25%;
 }
 @media screen and (max-width:740px) {
     .flex-box > .mid{     
-        /*
-            css... 
-        */
+       flex-wrap: wrap;
     }
     .flex-box > .mid > img{
-        /*
-            css... 
-        */
+       width: 50%;
     }
 }

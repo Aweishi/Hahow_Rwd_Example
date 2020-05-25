@@ -20,19 +20,13 @@ html,body{
 	border:2px solid #EEE;
 	background-color:#fb8b01;
 	padding-top: 110px;
-
-	/* 想要使用 CSS3 動畫功能 */	
-	/* 先對 div 宣告 transition */
-	/*
-		css ...
-	*/	
+	transition: all .3s;
 }
 
 /* 使用 hover 觸發動畫*/
 #app:hover{
-	/*
-		css ...
-	*/	
+	background-color: red;
+	transform: scale(1.1);
 }
 
 #app > img{

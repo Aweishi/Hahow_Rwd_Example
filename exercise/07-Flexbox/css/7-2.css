@@ -47,16 +47,21 @@ header > nav > a:hover{
     border-bottom: 2px solid #273137;
 }
 .flex-box{
-    position: absolute;
+ /*   position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%;*/
     width: 1168px;
     height: 570px;
-    margin-left: -584px; 
-    margin-top: -285px; 
-    /*
-        css ...
-    */
+    margin: auto;
+  /*  margin-left: -584px; 
+    margin-top: -285px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between;
+    align-content: space-between; 
+
+    
     
 }
 
