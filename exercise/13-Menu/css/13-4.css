@@ -31,7 +31,7 @@ header{
     background-color: #fe5054;
     z-index: 999;
 }
-header > a.menuopem{
+header > a.menuopen{
     display: block;
     width: 61px;
     height: 61px;
@@ -65,16 +65,13 @@ footer{
     height: auto;
     overflow: hidden;
     z-index: 999;
-    transition: all .3s;
+    transition: left .3s;
     position: fixed;
     left: 0;
     bottom: 0;
 }
 footer.left{
-
-    /*
-        css...
-    */
+   left: -100%; 
 }
 footer > a{
     display: block;
@@ -95,18 +92,14 @@ footer > a > img{
     height: 100%;
     background-color: #fff;
     z-index: 9999;
-    transition: all .3s;
+    transition: left .3s;
     border:5px solid #fe5054;
-
-    
-    /*
-        css ...
-    */
+    position: fixed;
+    left: 100%;
+    top: 0;
 }
 #menu.open{
-    /*
-        css ...
-    */
+    left: 0;
 }
 /*---------------------------------------------------------------------*/
 #menu > div{
