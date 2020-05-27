@@ -6,6 +6,7 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 	font-family: "Microsoft JhengHei","Heiti TC","sans-serif";
+	text-decoration: none;
 }
 img{
     display: block;
@@ -15,6 +16,9 @@ html,body{
     height: 100%;
 }
 
+a{
+	color: #fff;
+}
 nav{
 	width: 100%;
 	height: 97px;
@@ -22,12 +26,21 @@ nav{
 }
 .logo{
 	float: left;
+	padding-left: 5%;
 }
 .colorG{
 	color: #ebebeb;
 }
 .colorW{
 	color: #fff;
+}
+
+.colorGr{
+	color: #088ca5;
+}
+
+.colorB{
+	color: #515151;
 }
 .fz15{
 	font-size: 15px;
@@ -45,13 +58,17 @@ nav{
 	margin: auto;
 	line-height: 97px;
 }
+
+.banner{
+	margin-left: 5%;
+}
 .banner h2:first-of-type{
 	opacity: .5;
 }
 .banner h2 > span{
 	color: #fff;
 	display: inline-block;
-	padding-left:310px ;
+	padding-left:25% ;
 }
 
 .menu{
@@ -59,13 +76,13 @@ nav{
 }
 
 .menu li{
-	padding-left: 30px;
+	padding-left: 2%;
 }
 span{
 	display: block;
 }
 header{
-	padding: 280px 0 165px 0;
+	padding: 20% 0 16% 0;
 	width: 100%;
 	background-color: #0ca3b9;
 }
@@ -101,7 +118,8 @@ article{
 }
 
 .item{
-	display: block;
+
+	display: flex;
 	width: 33.3%;
 }
 
@@ -113,5 +131,77 @@ article{
 }
 
 
+footer{
+
+	padding: 50px 0 200px 0;
+	background-color: #ebebeb;
+}
+
+.footer_txt{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content:space-between;
+}
+.footer_txt p{
+	width: 40%;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.footer_txt span{
+	display: block;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.content{
+		width: 100%;
+	}
+
+    
+}
+
+@media screen and (max-width: 640px){
+
+	.banner h1{
+		font-size: 40px;
+	}
+	.photogrid{
+		flex-wrap: wrap;
+	}
+	.item{
+		width: 100%;
+		height: auto;
+	}
+	.item img{
+		width: 100%;
+		display: block;
+	}
+
+	footer{
+		padding: 6%;
+	}
+
+	footer h2{
+		font-size: 30px;
+	}
+
+	.footer_txt{
+		display: flex;
+		flex-wrap: wrap;
+}
+
+	.footer_txt p{
+		width: 100%;
+		font-size: 20px;
+		line-height: 40px;
+}
+
+
+}
+@media screen and (max-width: 320px){
 
 
