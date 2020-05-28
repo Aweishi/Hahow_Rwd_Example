@@ -53,10 +53,13 @@ nav{
 
 }
 
+.menubtn{
+	display: none;
+}
+
 .content{
 	width: 1024px;
 	margin: auto;
-	line-height: 97px;
 }
 
 .banner{
@@ -71,12 +74,19 @@ nav{
 	padding-left:25% ;
 }
 
-.menu{
-	display: flex;
+#menu{
+	/*display: flex;*/
+	height: 97px;
 }
 
-.menu li{
+#menu li{
+	float: left;
 	padding-left: 2%;
+	line-height: 97px;
+}
+
+nav h1{
+	line-height: 97px;
 }
 span{
 	display: block;
@@ -165,6 +175,40 @@ footer{
 }
 
 @media screen and (max-width: 640px){
+	
+	.menubtn{
+		display: block;
+		background-image: url(../images/menu.jpg);
+		width: 82px;
+		height: 74px;
+		float: right;
+	}
+
+	
+
+	nav{
+		height: 74px;
+		overflow: hidden;
+	}
+
+	nav.open{
+		height: 370px;
+	}
+
+
+	nav h1{
+		line-height: 74px;
+	}
+
+	#menu li{
+		padding-left: 5%;
+		clear: both;
+		width: 100%;
+		background-color: #373c3f;
+		line-height: 74px;
+	}
+
+	
 
 	.banner h1{
 		font-size: 40px;
